@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <title>Python Doc</title>
+  <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python Doc</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#introduction">Introduction</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#python">Python</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#basics">Basics</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#functions">Functions</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#lists_&_dictionaries">Lists & Dictionaries</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#classes_&_OOP"> Classes & OOP</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#frameworks">Frameworks</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="introduction">
+        <header for="main-section">
+          Introduction
+        </header>
+        <article>
+          <p>
+In Python, the print() function is used to display output to the console or terminal. It takes one or more arguments, which can be of various data types such as strings, numbers, or even other data structures like lists or dictionaries.</p>
+          <code>print("Hello World")</code>
+          <p>
+At a basic level, a variable in programming can be thought of as a container that holds a value. This value can be of various types, such as numbers, text, or more complex data structures like lists or dictionaries.</p>
+          <code>my_variable= "I'm storing this sentence in here!"</code>
+          <ul>
+            <li>
+              Print
+            </li>
+            <li>
+              Variable
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="python">
+        <header for="main-section">
+          Python
+        </header>
+        <article>
+          <p>Python emphasizes readability and simplicity, with a syntax that allows developers to write clear and concise code. This makes it a popular choice for beginners and experienced programmers alike.</p>
+          <p>Python uses dynamic typing, allowing variables to change types as needed. It also features automatic memory management through garbage collection, which helps manage memory allocation and deallocation, making memory management transparent to the programmer.</p>
+          <code>syntax= "this_is_snake_case"</code>
+          <ul>
+            <li>
+              Dynamic Typing
+            </li>
+            <li>
+              Readability and Simplicity
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="basics">
+        <header for="main-section">
+          Basics
+        </header>
+        <article>
+          <p>Python is a versatile and beginner-friendly programming language that has gained widespread popularity for its simplicity and readability. At its core, Python emphasizes clean and concise syntax, making it accessible to developers of all skill levels. One of Python's fundamental features is its use of indentation to denote code blocks, which promotes code readability and helps maintain consistency across projects. This feature, combined with its easy-to-understand syntax, allows developers to quickly grasp Python's basic concepts and write clear, expressive code.</p>
+          <p>In addition to its readability, Python offers a wide range of built-in data types and structures, including numbers, strings, lists, dictionaries, and tuples. These data structures provide flexibility and efficiency for storing and manipulating data in Python programs. Furthermore, Python supports both procedural and object-oriented programming paradigms, allowing developers to choose the most suitable approach for their projects. With its extensive standard library and vibrant ecosystem of third-party packages and frameworks, Python enables developers to tackle a variety of tasks, from web development and data analysis to machine learning and automation, making it a powerful and versatile language for solving real-world problems.</p>
+          <ul>
+            <li>
+              easy-to-understand
+            </li>
+            <li>
+              built-in data types
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="functions">
+        <header for="main-section">
+          Functions
+        </header>
+        <article>
+          <p>
+In Python, functions are reusable blocks of code that perform specific tasks. They are defined using the def keyword followed by the function name, parentheses, and a colon. Inside the function block, you can write the code that you want the function to execute when called. Functions can take parameters, which are values that you can pass to the function to customize its behavior. These parameters are specified within the parentheses after the function name. Additionally, functions can return values using the return statement, allowing them to produce output that can be used elsewhere in the code.
+
+Here's an example of a simple function in Python that takes two parameters and returns their sum:</p>
+          <code>def add_numbers(a, b):
+    sum = a + b
+    return sum
+
+result = add_numbers(3, 5)
+print(result)</code>
+          <p>In this example, the add_numbers function takes two parameters a and b, adds them together, and returns the result. When the function is called with arguments 3 and 5, it returns 8, which is then stored in the result variable and printed to the console. Functions in Python enable code reuse, modularity, and abstraction, making it easier to manage and organize complex programs.</p>
+          <ul>
+            <li>
+              Functions
+            </li>
+            <li>
+              Parameters
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="lists_&_dictionaries">
+        <header for="main-section">
+          Lists & Dictionaries
+        </header>
+        <article>
+          <p>
+In Python, lists and dictionaries are two fundamental data structures used for storing collections of data. A list is an ordered collection of items, where each item is indexed by its position in the list. Lists can contain elements of different data types, including numbers, strings, and even other lists. They are defined using square brackets [] and can be modified after creation by adding, removing, or updating elements. Lists offer flexibility and versatility, allowing for easy manipulation and iteration over the elements.</p>
+          <p>On the other hand, dictionaries are unordered collections of key-value pairs, where each value is associated with a unique key. Dictionaries are defined using curly braces {} and consist of comma-separated key-value pairs, where the key and value are separated by a colon :. Unlike lists, dictionaries are not indexed by position but by their keys, allowing for efficient lookup and retrieval of values based on their associated keys. Dictionaries are commonly used to represent structured data, such as user information, configurations, or mappings between related entities. They offer a convenient way to organize and access data in Python programs.</p>
+          <code>my_dict= {"key_1": "value_1", "key_2": "value_2"}</code>
+          <code>my_list= [item1, item2, item3]</code>
+          <ul>
+            <li>
+              Lists
+            </li>
+            <li>
+              Dictionaries
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="classes_&_OOP">
+        <header for="main-section">
+          Classes & OOP
+        </header>
+        <article>
+          <p>In Python, classes are blueprints for creating objects, encapsulating data and functionality into a single unit. They serve as a template from which individual objects, or instances, are created. Classes define attributes, which are variables associated with the class or its instances, and methods, which are functions that operate on the class's data. The class keyword is used to define a class, followed by the class name and a colon. Inside the class block, you can define attributes and methods that define the behavior of the class.</p>
+          <p>Object-oriented programming (OOP) is a programming paradigm that emphasizes the concept of objects and classes, enabling developers to model real-world entities and their interactions. OOP promotes principles such as encapsulation, inheritance, and polymorphism. Encapsulation refers to the bundling of data and methods within a class, hiding internal implementation details and exposing only relevant interfaces. Inheritance allows classes to inherit attributes and methods from other classes, facilitating code reuse and creating hierarchical relationships between classes. Polymorphism enables objects of different classes to be treated as objects of a common superclass, allowing for flexibility and extensibility in the code. Python fully supports OOP principles, making it a powerful language for building modular, scalable, and maintainable software systems.</p>
+          <code>class Person:
+    def __init__(self, name, age, city, email):
+        self.name = name
+        self.age = age
+        self.city = city
+        self.email = email
+
+    def greet(self):
+        return f"Hello, my name is {self.name}. I am {self.age} years old and I live in {self.city}."</code>
+          <code>
+            person1 = Person("John Doe", 30, "New York", "john@example.com")
+print(person1.name)  # Output: John Doe
+print(person1.age)   # Output: 30
+print(person1.greet())  # Output: Hello, my name is John Doe. I am 30 years old and I live in New York.
+          </code>
+          <ul>
+            <li>
+              Classes
+            </li>
+            <li>
+              Objects
+            </li>
+            <li>
+              Methods
+            </li>
+            <li>
+              Attributes
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="frameworks">
+        <header>
+          Frameworks
+        </header>
+        <article>
+          <p>Python has a plethora of frameworks tailored to various domains, with Flask and Django standing out as two of the most popular choices. Flask, a lightweight and minimalist micro-framework, offers simplicity and flexibility, making it ideal for small to medium-sized projects. It provides essential features for web development, such as routing, request handling, and templating, while allowing developers the freedom to choose and integrate additional components as needed. Flask's modular design and extensive ecosystem of extensions enable developers to customize their applications according to specific requirements, whether it's building RESTful APIs, web services, or simple web applications.</p>
+          <p>Django, on the other hand, is a full-stack web framework that follows the "batteries-included" philosophy, providing a comprehensive set of tools and functionalities for building complex, scalable web applications rapidly. Django comes with built-in components for handling authentication, database management, URL routing, and templating, among others, which streamline the development process and encourage best practices. Its robust ORM (Object-Relational Mapping) system abstracts away database complexities, allowing developers to work with databases using Python objects. Django's emphasis on convention over configuration and its adherence to the Don't Repeat Yourself (DRY) principle promote code reuse, maintainability, and scalability, making it a popular choice for building large-scale, production-grade web applications.</p>
+          <code>import Flask</code>
+          <ul>
+            <li>
+              Flask
+            </li>
+            <li>
+              Django
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
